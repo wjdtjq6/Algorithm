@@ -9,7 +9,5 @@ func solution(_ numbers:[Int]) -> [Int] {
             }
         }
     }
-    var result1 = Set(arr)
-    var result2 = result1.sorted()
-    return [Int](result2)
+    return Set(arr).sorted()
 }
